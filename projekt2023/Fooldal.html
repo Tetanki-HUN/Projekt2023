@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fooldal.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Költők</title>
     <link rel="shortcut icon" type="image/png" href="image/icon.png">
 </head>
@@ -20,5 +21,23 @@
             <li><a href="#">József Attila</a></li>
         </ul>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.lemegy').click(function()   {
+               if ($(this).hasClass('nagyobb')) {
+                $('ul').slideUp(function(){
+                    $('.lemegy').removeClass('nagyobb'); 
+                });
+               }else{
+                $(this).addClass('nagyobb');
+                setTimeout(function() {
+                    $('ul').stop().slideDown();
+                },200);
+               }
+
+            });
+        });
+    </script>
 </body>
 </html>
