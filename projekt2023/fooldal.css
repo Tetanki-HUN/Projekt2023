@@ -1,4 +1,21 @@
 body {
     background: linear-gradient(to bottom right, #0099cc, #00ffff);
     background-repeat: no-repeat;
+    
+}
+
+.teljesmenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lemegy {
+    position: relative;
 }
