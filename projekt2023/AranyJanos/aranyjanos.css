@@ -1,3 +1,24 @@
-#konyvjelzo {
+body {
+    background: rgb(251, 251, 77);
+    text-shadow: 1px 1px 10px rgb(151, 149, 77);
+}
+.row {
+    padding: 25px;  
+
+}
+.col-sm-2 {
+    background-color: rgba(214, 214, 0, 0.438)!important;
+    border: 2px solid rgba(61, 60, 29, 0.527);
+    border-radius: 4px;
     
+}
+#konyvjelzo {
+    position: fixed;
+}
+
+#szoveg {
+    background-color: rgba(214, 214, 0, 0.438)!important;
+    border: 2px solid rgba(102, 100, 48, 0.342);
+    border-radius: 4px;
+    margin: auto;
 }
