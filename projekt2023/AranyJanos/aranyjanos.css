@@ -3,17 +3,16 @@ body {
     text-shadow: 1px 1px 10px rgb(151, 149, 77);
 }
 .row {
-    padding: 25px;  
+    padding: 20px; 
 
 }
 .col-sm-2 {
     background-color: rgba(214, 214, 0, 0.438)!important;
     border: 2px solid rgba(61, 60, 29, 0.527);
     border-radius: 4px;
+    flex-direction: column;
+    display: flex!important;
     
-}
-#konyvjelzo {
-    position: fixed;
 }
 
 #szoveg {
