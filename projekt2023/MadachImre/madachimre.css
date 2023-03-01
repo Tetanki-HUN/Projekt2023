@@ -17,9 +17,8 @@
     border-top-left-radius: 23px;
   }
   
-  .menu-mobile:hover,
-  .menu-mobile:focus {
-    transform: translate(0px, -120px);
+  .menu-mobile:hover, .menu-mobile:focus {
+    transform: translate(0px, -90px);
     animation-timing-function: 1s ease-in;
   }
   
@@ -67,7 +66,6 @@ li a:link {
     margin-right: 7px;
   }
   
-  .menu-mobile:hover .arrow,
-  .menu-mobile:focus .arrow {
+  .menu-mobile:hover .arrow, .menu-mobile:focus .arrow {
     transform: rotate(180deg)
   }
