@@ -24,6 +24,7 @@ button {
   background-color: transparent;
   border: transparent;
   scroll-behavior: smooth;
+  border: 2px solid black;
 }
 
 
