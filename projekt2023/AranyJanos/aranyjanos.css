@@ -94,23 +94,22 @@ button {
   background: #ffc20e no-repeat fixed;
 }
 
-li a:hover {
+.elmegy a:hover {
   text-decoration: none;
   background: #ffc20e no-repeat fixed;
   background-repeat: space;
   color: aqua;
 }
 
-ul li:hover {
+.nav .elmegy:hover {
   list-style: none;
   background: #ffc20e no-repeat fixed;
 }
 
 
-li a:link {
+.elmegy a:link {
   text-decoration: none; 
   list-style: none;
-  
 }
 
 
