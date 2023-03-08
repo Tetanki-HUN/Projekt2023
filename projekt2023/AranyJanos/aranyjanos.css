@@ -20,8 +20,9 @@ button {
   position: fixed;
   background-color: transparent;
   border: transparent;
-  
+  scroll-behavior: smooth;
 }
+
 
 #lista {
   background-color: rgba(214, 214, 0, 0.438);
