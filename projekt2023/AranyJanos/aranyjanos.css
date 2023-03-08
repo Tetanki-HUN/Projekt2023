@@ -13,7 +13,10 @@ body {
     width: 12.5em;
     height: 58em;
     position: fixed;
+}
 
+#konyvjelzo > ul, li {
+  position: fixed;
 }
 
 button {
