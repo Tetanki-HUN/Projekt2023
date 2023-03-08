@@ -13,15 +13,19 @@ body {
     width: 12.5em;
     height: 58em;
     position: fixed;
+}
 
+#konyvjelzo > ul, li {
+  position: fixed;
 }
 
 button {
   position: fixed;
   background-color: transparent;
   border: transparent;
-  
+  scroll-behavior: smooth;
 }
+
 
 #lista {
   background-color: rgba(214, 214, 0, 0.438);
