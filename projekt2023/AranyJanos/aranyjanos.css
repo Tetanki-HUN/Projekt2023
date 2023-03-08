@@ -10,7 +10,6 @@ body {
     background-color: rgba(214, 214, 0, 0.438);
     border: 2px solid rgba(61, 60, 29, 0.527);
     border-radius: 4px;
-<<<<<<< Updated upstream
     width: 12.5em;
     height: 58em;
     position: fixed;
@@ -24,10 +23,6 @@ body {
   width: 14em;
   height: 17em;
   position: fixed;
-=======
-    flex-direction: column;
-    display: flex!important;
->>>>>>> Stashed changes
 }
 
 #szoveg {
