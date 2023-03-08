@@ -6,13 +6,23 @@ body {
     padding: 20px; 
 
 }
-.col-sm-2 {
-    background-color: rgba(214, 214, 0, 0.438)!important;
+#konyvjelzo {
+    background-color: rgba(214, 214, 0, 0.438);
     border: 2px solid rgba(61, 60, 29, 0.527);
     border-radius: 4px;
-    flex-direction: column;
-    display: flex!important;
-    
+    width: 12.5em;
+    height: 58em;
+    position: fixed;
+
+}
+
+#lista {
+  background-color: rgba(214, 214, 0, 0.438);
+  border: 2px solid rgba(61, 60, 29, 0.527);
+  border-radius: 4px;
+  width: 14em;
+  height: 17em;
+  position: fixed;
 }
 
 #szoveg {
