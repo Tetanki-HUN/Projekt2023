@@ -10,6 +10,7 @@ body {
     background-color: rgba(214, 214, 0, 0.438);
     border: 2px solid rgba(61, 60, 29, 0.527);
     border-radius: 4px;
+<<<<<<< Updated upstream
     width: 12.5em;
     height: 58em;
     position: fixed;
@@ -23,6 +24,10 @@ body {
   width: 14em;
   height: 17em;
   position: fixed;
+=======
+    flex-direction: column;
+    display: flex!important;
+>>>>>>> Stashed changes
 }
 
 #szoveg {
@@ -84,18 +89,28 @@ body {
   list-style: none;
   cursor: pointer;
   font-size: 18px;
-  background-color: #ffc20e;
+  background: #ffc20e no-repeat fixed;
 }
 
 li a:hover {
+  text-decoration: none;
+  background: #ffc20e no-repeat fixed;
+  background-repeat: space;
   color: aqua;
-  list-style: none;
 }
+
+ul li:hover {
+  list-style: none;
+  background: #ffc20e no-repeat fixed;
+}
+
 
 li a:link {
   text-decoration: none; 
   list-style: none;
+  
 }
+
 
 .arrow {
   width: 15px;
@@ -105,4 +120,3 @@ li a:link {
 .menu-mobile:hover .arrow, .menu-mobile:focus .arrow {
   transform: rotate(180deg)
 }
-
