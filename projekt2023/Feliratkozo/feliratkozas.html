@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="feliratkozas.css">
+    <script src="feliratkozas.js"></script>
     <title>Iratkozz fel!</title>
 </head>
 <body>
-    <h1>SUB</h1>
+    <form action="">
+        <label for="name"></label>
+        <input type="text" id="kname" placeholder="Keresztnév" required><br><br>
+
+        <label for="name"></label>
+        <input type="text" id="vname" placeholder="Vezetéknév" required><br><br>
+        
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Email" required onkeyup="vizsgal()"><br><br>
+        
+        <label for="jelszo"></label>
+        <input type="password" id="jelszo" placeholder="jelszo" required><br><br>
+
+        <label for="szabalyzat">Kérlek fogadd el a <a href="Szabalyzat/szabalyzat.html" target="_blank">szabályzatot</a>  </label>
+        <input type="checkbox" id="szabalyzat" required><br><br><br>
+
+        <label for="feliratkozas"></label>
+        <input type="submit" id="felliratkozas" value="Feliratkozom">
+      </form>
+      <p id="ideir3" style="visibility: hidden;" ></p>
 </body>
 </html>
+
+
+
