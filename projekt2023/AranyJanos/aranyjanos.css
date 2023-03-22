@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background: rgb(251, 251, 77);
+    background-image: linear-gradient(140deg, rgb(110, 110, 40) 50%, rgb(251, 251, 77) 75%);
+    background-size: cover;
+    background-position: top;
     text-shadow: 1px 1px 10px rgb(151, 149, 77);
 }
 
@@ -40,7 +42,9 @@ button {
   border: transparent;
   scroll-behavior: smooth;
   transition: 700ms ease;
-  border: 2px solid black;
+  padding: 1px;
+  margin: 3px;
+  border-bottom: 2px solid rgba(102, 101, 65, 0.281);
 }
 
 
@@ -141,4 +145,13 @@ button {
 
 .menu-mobile:hover .arrow, .menu-mobile:focus .arrow {
   transform: rotate(180deg)
+}
+
+#oldal {
+  margin-top: -10px;
+  margin-left: 4.9px;
+  color: black;
+  position: fixed;
+  font-size: 22px;
+  border-bottom: 2px solid rgba(61, 60, 29, 0.527);
 }
