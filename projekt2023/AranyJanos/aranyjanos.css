@@ -119,22 +119,12 @@ button {
   background: #ffc20e no-repeat fixed;
 }
 
-.elmegy a:hover {
-  text-decoration: none;
-  background: #ffc20e no-repeat fixed;
-  background-repeat: space;
+li a:hover {
   color: aqua;
 }
 
-.nav .elmegy:hover {
-  list-style: none;
-  background: #ffc20e no-repeat fixed;
-}
-
-
-.elmegy a:link {
+li a:link {
   text-decoration: none; 
-  list-style: none;
 }
 
 
