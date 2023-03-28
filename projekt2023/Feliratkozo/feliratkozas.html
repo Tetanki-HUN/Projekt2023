@@ -9,7 +9,7 @@
     <title>Iratkozz fel!</title>
 </head>
 <body>
-    <form action="">
+    <form action="" id="myForm">
         <label for="name"></label>
         <input type="text" id="kname" placeholder="Keresztnév" required><br><br>
 
@@ -17,19 +17,20 @@
         <input type="text" id="vname" placeholder="Vezetéknév" required><br><br>
         
         <label for="email"></label>
-        <input type="text" id="email" placeholder="Email" required onkeyup="vizsgal()"><br><br>
-        
-        <label for="jelszo"></label>
-        <input type="password" id="jelszo" placeholder="jelszo" required><br><br>
+        <input type="text" id="email" placeholder="Email" required><br><br>
 
         <label for="szabalyzat">Kérlek fogadd el a <a href="Szabalyzat/szabalyzat.html" target="_blank">szabályzatot</a>  </label>
         <input type="checkbox" id="szabalyzat" required><br><br><br>
 
         <label for="feliratkozas"></label>
+
         <input type="submit" id="felliratkozas" value="Feliratkozom"><br><br><br>
 
         <label for="fooldalra"></label>
         <a href="../Fooldal.html"><input type="button" id="fooldalra" value="Vissza a főoldalra" ></a>
+
+        <input type="button" id="felliratkozas" value="Feliratkozom" onclick="vizsgal()">
+
       </form>
       <p id="ideir3" style="visibility: hidden;" ></p>
 </body>

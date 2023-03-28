@@ -120,8 +120,16 @@ button {
   background: #ffc20e no-repeat fixed;
 }
 
+
 li a:hover {
   color: aqua;
+}
+
+.elmegy a:hover {
+  text-decoration: none;
+  background: #ffc20e no-repeat fixed;
+  background-repeat: space;
+  color: rgb(215, 26, 221);
 }
 
 li a:link {
