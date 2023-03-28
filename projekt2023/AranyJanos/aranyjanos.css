@@ -32,8 +32,9 @@ body {
 }
 
 .Alinkekert button a:hover {
+  padding-left: 5px;
   text-decoration: none;
-  color: aqua;
+  color: rgb(65, 62, 22);
 }
 
 button {
