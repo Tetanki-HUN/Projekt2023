@@ -33,9 +33,16 @@ body {
 }
 
 .Alinkekert button a:hover {
-  padding-left: 5px;
+  margin-left: 5px;
   text-decoration: none;
   color: rgb(65, 62, 22);
+}
+
+.Alinkekert li a:hover {
+  border-bottom: 2px solid rgba(102, 101, 65, 0.281);
+}
+button a:defined {
+  border-bottom: 2px solid rgba(102, 101, 65, 0.281);
 }
 
 button {
@@ -46,7 +53,6 @@ button {
   transition: 700ms ease;
   padding: 1px;
   margin: 3px;
-  border-bottom: 2px solid rgba(102, 101, 65, 0.281);
 }
 
 
