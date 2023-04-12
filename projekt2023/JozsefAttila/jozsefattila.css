@@ -5,28 +5,26 @@ body {
 }
 
 .menu-mobile {
-  background: #ffc20e;
+  background: #b30000;
   -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+<<<<<<< Updated upstream
   box-shadow: -3px 0px 5px 0px rgba(138, 138, 138, 0.2);
   color: #222;
+=======
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+>>>>>>> Stashed changes
   text-align: center;
 }
 
-.menu-mobile .title {
-  color: #003D3F;
+#feliratkozasszoveg {
+ color: #6495ed;
 }
 
-.menu-mobile .nav #feliratkozas {
-  background: #ffc20e no-repeat fixed;
+#feliratkozas #feliratkozasszoveg:hover {
+  background: #b30000 no-repeat fixed;
+  color: rgb(235, 235, 224);
 }
 
-
-#feliratkozas a:hover {
-  color: aqua;
-  background: #ffc20e no-repeat fixed;
-  color: rgb(215, 26, 221);
-}
-
-#feliratkozas a:link {
+#feliratkozas #feliratkozasszoveg:link {
   text-decoration: none;
 }
