@@ -1,18 +1,45 @@
 body {
   background-image: linear-gradient(73deg, rgb(37, 37, 37) 50%, rgb(98, 98, 98) 75%);
-  text-shadow: 1px 1px 10px rgba(73, 73, 73, 0.726);
+  text-shadow: 1px 1px 10px rgba(56, 56, 56, 0.849);
   color: rgb(138, 138, 138);
+}
+
+#konyvjelzo {
+  background-color: rgba(185, 185, 185, 0.438);
+  border: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+.Alinkekert button a {
+color: black;
+}
+
+.Alinkekert button a:hover {
+color: rgb(65, 62, 22);
+}
+
+.Alinkekert li a:hover {
+border-bottom: 2px solid rgba(92, 92, 92, 0.342);
+}
+button a:defined {
+border-bottom: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+#lista {
+background-color: rgba(185, 185, 185, 0.438);
+border: 2px solid rgba(92, 92, 92, 0.342);
+}
+
+#szoveg {
+  background-color: rgba(185, 185, 185, 0.438)!important;
+  border: 2px solid rgba(92, 92, 92, 0.342);
 }
 
 .menu-mobile {
   background: #b30000;
   -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
-<<<<<<< Updated upstream
   box-shadow: -3px 0px 5px 0px rgba(138, 138, 138, 0.2);
   color: #222;
-=======
   box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
->>>>>>> Stashed changes
   text-align: center;
 }
 

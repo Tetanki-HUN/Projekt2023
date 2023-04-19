@@ -3,10 +3,6 @@ body {
     text-shadow: 1px 1px 10px rgb(151, 149, 77);
 }
 
-.row {
-    padding: 20px; 
-}
-
 #konyvjelzo {
     background-color: rgba(214, 214, 0, 0.438);
     border: 2px solid rgba(61, 60, 29, 0.527);
@@ -56,8 +52,6 @@ button a:defined {
 #feliratkozas #feliratkozasszoveg:link {
   text-decoration: none;
 }
-
-
 
 #oldal {
   color: black;
