@@ -1,7 +1,7 @@
 body {
-  background-image: linear-gradient(73deg, rgb(37, 37, 37) 50%, rgb(98, 98, 98) 75%);
-  text-shadow: 1px 1px 10px rgba(56, 56, 56, 0.849);
-  color: rgb(138, 138, 138);
+  background-image: linear-gradient(73deg, rgb(0, 51, 0) 50%, rgba(0, 122, 0, 0.87) 75%);
+  text-shadow: 1px 1px 10px rgba(50, 122, 0, 0.87);
+  color: rgb(187, 240, 187);
 }
 
 #konyvjelzo {
@@ -12,14 +12,15 @@ body {
 img {
   display: inline-block;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .Alinkekert button a {
-color: black;
+color: rgb(149, 228, 149);
 }
 
 .Alinkekert button a:hover {
-color: rgb(65, 62, 22);
+color: rgb(148, 192, 148);
 }
 
 .Alinkekert li a:hover {
