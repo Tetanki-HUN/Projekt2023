@@ -9,6 +9,11 @@ body {
   border: 2px solid rgba(92, 92, 92, 0.342);
 }
 
+img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .Alinkekert button a {
 color: black;
 }
