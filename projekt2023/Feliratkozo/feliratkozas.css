@@ -13,3 +13,8 @@ html {
 input {
     text-align: center;
 }
+
+.gomb > input {
+    background-color: transparent;
+    border: transparent;
+}
