@@ -9,3 +9,9 @@ body {
 h2 {
      text-decoration: underline;
 }
+
+button {
+     background-color: #abe9ff;
+     border: none;
+     font-size: 17px;
+}
