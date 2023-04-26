@@ -11,23 +11,24 @@
 </head>
 <body>
     <form action="" id="myForm">
-        <label for="name"></label>
-        <input type="text" id="kname" placeholder="Keresztnév" required><br><br>
+        <div class="beír">
+            <label for="name"></label>
+            <input type="text" id="kname" placeholder="Keresztnév" required><br><br>
 
-        <label for="name"></label>
-        <input type="text" id="vname" placeholder="Vezetéknév" required><br><br>
-        
-        <label for="email"></label>
-        <input type="text" id="email" placeholder="Email" required><br><br>
-
+            <label for="name"></label>
+            <input type="text" id="vname" placeholder="Vezetéknév" required><br><br>
+            
+            <label for="email"></label>
+            <input type="text" id="email" placeholder="Email" required><br><br>
+        </div>
         <label for="szabalyzat">Kérlek fogadd el a <a href="Szabalyzat/szabalyzat.html" target="_blank">szabályzatot</a>  </label>
         <input type="checkbox" id="szabalyzat" required><br><br><br>
+        <div class="gomb">
+            <label for="fooldalra"></label>
+            <a href="../Fooldal.html"><input type="button" id="fooldalra" value="Vissza a főoldalra" ></a>
 
-        <label for="fooldalra"></label>
-        <a href="../Fooldal.html"><input type="button" id="fooldalra" value="Vissza a főoldalra" ></a>
-
-        <input type="button" id="felliratkozas" value="Feliratkozom" onclick="vizsgal()">
-
+            <input type="button" id="felliratkozas" value="Feliratkozom" onclick="vizsgal()">
+        </div>
       </form>
       <p id="ideir3" style="visibility: hidden;" ></p>
 </body>
