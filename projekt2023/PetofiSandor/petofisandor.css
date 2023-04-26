@@ -18,3 +18,18 @@
   text-decoration: none;
 }
 
+.Alinkekert button a {
+  color: black;
+  }
+  
+  .Alinkekert button a:hover {
+  color: rgb(65, 62, 22);
+  }
+  
+  .Alinkekert li a:hover {
+  border-bottom: 2px solid rgba(92, 92, 92, 0.342);
+  }
+  button a:defined {
+  border-bottom: 2px solid rgba(92, 92, 92, 0.342);
+  }
+  
