@@ -19,14 +19,17 @@
 }
 
 #konyvjelzo {
-  background-color: rgba(95, 2, 31, 0.438);
+  background-color: rgb(76,0,19);
   border: 2px solid rgba(212, 106, 18, 0.829);
 }
 
 .Alinkekert button a {
-color: black;
+color:aliceblue;
 }
 
+#oldal {
+  color:aliceblue;
+}
 .Alinkekert button a:hover {
 color: rgb(245,245,220);
 }
@@ -36,10 +39,10 @@ border-bottom: 2px solid rgba(245,245,220, 0.281);
 }
 
 button a:defined {
-border-bottom: 2px solid rgba(228, 42, 17, 0.281);
+border-bottom: 2px solid rgba(212, 106, 18, 0.829);
 }
 
 #lista {
-background-color: rgba(95, 2, 31, 0.438);
+background-color: rgb(76,0,19);
 border: 2px solid rgba(212, 106, 18, 0.829);
 }
