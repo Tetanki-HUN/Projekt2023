@@ -34,6 +34,4 @@ input {
     width: 80%;
     background-image: linear-gradient(4deg,rgb(214, 239, 255) 0%,rgb(198, 219, 253) 75%);
 }
-.beír > input:hover {
-    background-image: linear-gradient(4deg,rgb(214, 239, 255) 0%,rgb(198, 219, 253) 75%);
-}
+
