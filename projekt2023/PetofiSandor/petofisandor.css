@@ -18,18 +18,28 @@
   text-decoration: none;
 }
 
+#konyvjelzo {
+  background-color: rgba(95, 2, 31, 0.438);
+  border: 2px solid rgba(212, 106, 18, 0.829);
+}
+
 .Alinkekert button a {
-  color: black;
-  }
-  
-  .Alinkekert button a:hover {
-  color: rgb(65, 62, 22);
-  }
-  
-  .Alinkekert li a:hover {
-  border-bottom: 2px solid rgba(92, 92, 92, 0.342);
-  }
-  button a:defined {
-  border-bottom: 2px solid rgba(92, 92, 92, 0.342);
-  }
-  
+color: black;
+}
+
+.Alinkekert button a:hover {
+color: rgb(245,245,220);
+}
+
+.Alinkekert li a:hover {
+border-bottom: 2px solid rgba(245,245,220, 0.281);
+}
+
+button a:defined {
+border-bottom: 2px solid rgba(228, 42, 17, 0.281);
+}
+
+#lista {
+background-color: rgba(95, 2, 31, 0.438);
+border: 2px solid rgba(212, 106, 18, 0.829);
+}
