@@ -37,6 +37,7 @@ input {
 
 .szoveg {
     color: rgb(209, 226, 255);
+    text-shadow: 1px 1px 5px rgba(67, 103, 165, 0.842);
 }
 
 #szabalyzat:hover{
