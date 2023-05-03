@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(-73deg, rgb(76,0,19) 50%, rgba(76, 0, 19, 0.644) 75%);
+  background-image: linear-gradient(-73deg, rgb(49, 1, 13) 50%, rgba(76, 0, 19, 0.644) 75%);
   text-shadow: 1px 1px 10px rgba(56, 56, 56, 0.849);
   color: aliceblue;
 }
@@ -25,7 +25,12 @@ body {
 }
 
 #konyvjelzo {
-  background-color: rgba(76, 0, 19, 0.5);
+  background-color: rgba(90, 2, 49, 0.561);
+  border: 2px solid rgba(212, 106, 18, 0.829);
+}
+
+#szoveg {
+  background-color: rgba(90, 2, 49, 0.561);
   border: 2px solid rgba(212, 106, 18, 0.829);
 }
 
@@ -49,6 +54,6 @@ border-bottom: 2px solid rgba(212, 106, 18, 0.829);
 }
 
 #lista {
-background-color: rgb(76, 0, 19);
+background-color: rgba(90, 2, 49, 0.561);
 border: 2px solid rgba(212, 106, 18, 0.829);
 }
